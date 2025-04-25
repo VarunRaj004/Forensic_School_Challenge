@@ -1,15 +1,15 @@
-Challenge: Optimize and Repair
-📜 Description
-Your organization has detected suspicious traffic from an internal workstation (IP: 10.10.10.50). The traffic was captured in a PCAP file by the SOC (Security Operations Center) and handed over to you.
+A suspicious .pcap file was pulled from a compromised developer machine during a late-night forensic sweep. The surface traffic? Boring. Clean. Almost too clean.
 
-The initial indicators suggest the user was downloading performance tools and update patches from seemingly legitimate domains. However, there’s a strong suspicion that a reverse shell was established, and data exfiltration may have occurred — possibly through DNS tunneling or covert channels.
+But you’re not here for surface-level analysis.
 
-Your mission is to:
+You’ve been tasked with peeling back the layers: decoding, deobfuscating, and dismissing the dozens of red herrings designed to distract you from the real threat.
 
-Analyze the traffic.
+Among fake flags and misleading echo commands, one hidden script contains the only true flag — cleverly encrypted and deeply buried where you'd least expect it.
 
-Identify any malicious payloads.
+Your mission:
 
-Determine if a flag was exfiltrated.
+Follow the trail of misdirection.
 
-Submit the exfiltrated flag as proof of compromise.
+Recognize what’s noise and what’s signal.
+
+Decode the only valid flag, hidden in plain sight.
